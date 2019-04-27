@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 8, 2019, 3:31:47 PM
+    Author     : rachc
+*/
+
+/*This is the css for the banner*/
+.hero-image {
+
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background-image: url("../Images/bread-cookies_1.jpg");
+    background-size: cover;
+  
+    
+}
+
+/*This is the CSS for the words in the middle of the banner*/
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    text-align: center;
+    color: #2D2021;
+    font-size: 300%;
+    font-weight: 700;
+}
+.welcome-message{
+    float: left;
+    top: 10%;
+    color: #2D2021;
+    font-size: 100%;
+    padding-left:5%;
+   
+}
+
+#logout{
+    float: right;
+    top: 10%;
+    color: #2D2021;
+    font-size: 75%;
+    padding-right: 5%;
+}
+
+#chPass{
+    float: right;
+    top: 10%;
+    color: #2D2021;
+    font-size: 75%;
+    padding-right: 5%;
+}

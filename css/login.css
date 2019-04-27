@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 8, 2019, 3:13:34 PM
+    Author     : rachc
+*/
+
+/* This is the background image for the page */
+.hero-image {
+
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+     background-image: url("../Images/board-coffee-cup.jpg");
+    background-size: cover;
+  
+    
+}
+
+
+/*This is the CSS for the words in the middle of the banner*/
+.hero-text {
+   
+    top: 15%;
+    left: 30%;
+    padding-left: 5em;
+    overflow: hidden;
+    text-align: left;
+    color: #2D2021;
+    font-size: 120%;
+    font-weight: 700;
+}
+
+#login-form {
+    width: 30%;
+    margin-left: 10%;
+    background-color: white;
+  
+    
+}
+
+#login-form  input {
+    margin-left: 10%;
+    background-color: white;
+}
+
+#rSubmit{
+    background-color: #2D2021;
+}
+#rSubmit:hover {
+  background-color: #e8b642;
+  color: black;
+}
