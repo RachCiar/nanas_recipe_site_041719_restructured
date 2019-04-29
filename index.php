@@ -10,7 +10,7 @@
 
 // Set the page title and include the HTML header:
     $page_title = "Welcome Nana's recipes!";
-    include('includes/header.html.php');
+    include('includes/login_header.html.php');
 
 
 

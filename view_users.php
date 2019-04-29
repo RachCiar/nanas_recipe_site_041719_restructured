@@ -4,7 +4,7 @@
 // This script retrieves all the records from the users table.
 require('includes/config.inc.php');
 $page_title = 'Register';
-include('includes/header.html.php');
+include('includes/member_header.html.php');
 // Page header:
 echo '<h1>Registered Users</h1>';
 //require(MYSQL); // Connect to the db.

@@ -4,7 +4,7 @@
 
 require('includes/config.inc.php');
 $page_title = 'Forgot Your Password';
-include('includes/header.html.php');
+include('includes/login_header.html.php');
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	require(MYSQL);
 	// Assume nothing:

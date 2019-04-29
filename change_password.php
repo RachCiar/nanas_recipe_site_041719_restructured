@@ -3,7 +3,7 @@
 // This page allows a logged-in user to change their password.
 
 require('includes/config.inc.php');
-include('includes/header.html.php');
+include('includes/member_header.html.php');
 
 $page_title = 'Change Your Password';
 

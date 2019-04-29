@@ -3,7 +3,7 @@
 // This is the View recipe page for the site.
 require('includes/config.inc.php'); //include the config file
 $page_title = 'Search Recipe'; //Set the page title
-include('includes/header.html.php'); //include the header
+include('includes/member_header.html.php'); //include the header
 $userid = $_SESSION['user_id']; //declare the user ID variable that was saved in the session
 
     

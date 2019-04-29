@@ -66,7 +66,7 @@ if (!isset($page_title)) {
                     <i class="fa fa-bars"></i>
                 </a>
                 <div class="search-container">
-                    <form action="view_recipes.php" method="post">
+                    <form action="search_recipes.php" method="post">
                         <input type="text" id="search" placeholder="Search.." name="search" size="60" maxlength="60">
                         <strong>Category</strong> 
                         <select id="category" name="category">
