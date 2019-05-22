@@ -55,7 +55,7 @@ if (!isset($page_title)) {
             </div>
             <div class="topnav" id="myTopnav">
                 <a href="index.php" title="Home Page">Home  </a>
-                <a href="" title="favorites"> Favorites  </a>
+                <a href="view_favorites.php" title="favorites"> Favorites  </a>
                 <a href="new_recipe.php" title="Add New Recipe">  Add New Recipe </a>
                 <?php
                 if ($_SESSION['user_level'] == 1) {

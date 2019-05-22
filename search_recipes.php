@@ -104,7 +104,7 @@ $userid = $_SESSION['user_id']; //declare the user ID variable that was saved in
         while ($row = mysqli_fetch_array($r, MYSQLI_BOTH)) {
 
             echo '<tr>'
-            . '<td><b><a href="view_recipe.php?rid=' . $row['recipe_id'] . '">' . $row['recipe_title'] . '</a></b></td>
+            . '<td><b><a href="view_recipes.php?rid=' . $row['recipe_id'] . '">' . $row['recipe_title'] . '</a></b></td>
                         <td align="left">' . $row['category_name'] . '</td>
                         <td align="left">' . $row['description'] . '</td>'
             . '</tr>';

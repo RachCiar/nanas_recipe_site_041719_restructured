@@ -26,7 +26,7 @@ if (isset($userid) && (isset($_GET['rid']) && is_numeric($_GET['rid']))) {
         }
 
 
-        echo '<p><input type="checkbox" name="favorites" value="1">Add to favorites</p>';
+        echo '<p><input type="checkbox" checked="checked" name="favorites" value="1" id="favCheckbox">Add to favorites</p>';
     }
     mysqli_free_result($r); // Free up the resources.
 
@@ -38,3 +38,15 @@ if (isset($userid) && (isset($_GET['rid']) && is_numeric($_GET['rid']))) {
 
 ?>
   <?php include('includes/footer.html.php'); ?>
+
+<script>
+$("#favCheckbox").click(function (){
+    var favorite = document.getElementbyId("favCheckbox").value;
+    var newFavUrlInt = favorite;
+    
+    $.post("add_favorites.php", newFavUrlInt, function (response){
+        
+    })
+    
+});
+</script>
